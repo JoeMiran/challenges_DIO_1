@@ -15,7 +15,7 @@ public class ContaBancaria {
         System.out.print("Enter your agency number: \n");
         // Read the user input and store it in the variable agencia
         String agencia = entrada.nextLine();
-
+        entrada.nextLine();
         // Ask the user for the name of the account holder
         System.out.print("Enter the name of the account holder: \n");
         // Read the user input and store it in the variable nomeTitular
