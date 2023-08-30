@@ -7,31 +7,31 @@ public class ContaBancaria {
         Scanner entrada = new Scanner(System.in);
 
         // Ask the user for the account number
-        System.out.print("Digite o número da conta corrente:  ");
+        System.out.print("Enter your account number:  \n");
         // Read the user input and store it in the variable numConta
         int numConta = entrada.nextInt();
 
         // Ask the user for the agency number
-        System.out.print("Digite o número da agência: ");
+        System.out.print("Enter your agency number: \n");
         // Read the user input and store it in the variable agencia
         String agencia = entrada.nextLine();
 
         // Ask the user for the name of the account holder
-        System.out.print("Digite o nome do titular da conta: ");
+        System.out.print("Enter the name of the account holder: \n");
         // Read the user input and store it in the variable nomeTitular
         String nomeTitular = entrada.nextLine();
 
         // Ask the user for the account's balance
-        System.out.print("Digite o saldo da conta");
+        System.out.print("Enter your account balance: \n");
         // Read the user input and store it in the variable saldo
         double saldo = entrada.nextDouble();
 
         // Print the results on the screen
-        System.out.println("\nCadastro efetuado com sucesso:");
-        System.out.println("Número da conta: " + numConta);
-        System.out.println("Agência: " + agencia);
-        System.out.println("Nome do titular: " + nomeTitular);
-        System.out.println("Saldo: " + saldo);
+        System.out.println("\n------------ REGISTRATION SUCCESSFULLY COMPLETED ------------\n");
+        System.out.println("Number account: " + numConta);
+        System.out.println("Agency: " + agencia);
+        System.out.println("Holder´s account name: " + nomeTitular);
+        System.out.println("balance: " + saldo);
 
         // Close the scanner
         entrada.close();

@@ -1,4 +1,4 @@
-# DIO - Trilha Java B√°sico
+# DIO - Trilha Java B·sico
 www.dio.me
 
 #### Autores
@@ -6,12 +6,12 @@ www.dio.me
 
 ## Sintaxe - Desafio
 
-Vamos exercitar todo o conte√∫do apresentado no m√≥dulo de Sintaxe codificando o seguinte cen√°rio.
+Vamos exercitar todo o conte˙do apresentado no mÛdulo de Sintaxe codificando o seguinte cen·rio.
 
-1. Crie o projeto `ContaBanco` que receber√° dados via terminal contendo as caracter√≠sticas de conta em banco conforme atributos abaixo:
-2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codifica√ß√£o do nosso programa.
+1. Crie o projeto `ContaBanco` que receber· dados via terminal contendo as caracterÌsticas de conta em banco conforme atributos abaixo:
+2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificaÁ„o do nosso programa.
 
-###### Revise sobre regras de declara√ß√£o de vari√°veis
+###### Revise sobre regras de declaraÁ„o de vari·veis
 
 | Atributo  | Tipo     | Exemplo   
 | --------- | ---------| ------- 
@@ -22,15 +22,15 @@ Vamos exercitar todo o conte√∫do apresentado no m√≥dulo de Sintaxe codificando o
 
 
 ###### Revise sobre terminal, main args e a classe Scanner
-2. Permita que os dados sejam inseridos via terminal sendo que o usu√°rio receber√° a mensagem de qual informa√ß√£o ser√° solicitada, exemplo:
+2. Permita que os dados sejam inseridos via terminal sendo que o usu·rio receber· a mensagem de qual informaÁ„o ser· solicitada, exemplo:
 
-* Programa: "Por favor, digite o n√∫mero da Ag√™ncia !"
-* Usu√°rio: 1021 *(depois ENTER para o pr√≥ximo campo)* 
+* Programa: "Por favor, digite o n˙mero da AgÍncia !"
+* Usu·rio: 1021 *(depois ENTER para o prÛximo campo)* 
 
-###### Revise sobre concatena√ß√£o e classe String com m√©todo concat
+###### Revise sobre concatenaÁ„o e classe String com mÈtodo concat
 
-3. Depois de todas as informa√ß√µes terem sido inseridas, o sistema dever√° exibir a seguinte mensagem:
+3. Depois de todas as informaÁıes terem sido inseridas, o sistema dever· exibir a seguinte mensagem:
 
-*"Ol√° [Nome Cliente], obrigado por criar uma conta em nosso banco, sua ag√™ncia √© [Agencia], conta [Numero] e seu saldo [Saldo] j√° est√° dispon√≠vel para saque".*
+*"Ol· [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agÍncia È [Agencia], conta [Numero] e seu saldo [Saldo] j· est· disponÌvel para saque".*
 
-Os campos em [ ] devem ser alterados pelas informa√ß√µes que forem inseridas pelos usu√°rios.
+Os campos em [ ] devem ser alterados pelas informaÁıes que forem inseridas pelos usu·rios.
